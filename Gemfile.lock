@@ -4,4 +4,5 @@ GEM
     addressable (2.3.3)
     crack (0.3.2)
     diff-lcs (1.2.1)
-    faraday 
+    faraday (0.8.6)
+  
