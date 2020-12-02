@@ -11,3 +11,4 @@ GEM
     hashie (2.0.2)
     json (1.7.7)
     multi_json (1.6.1)
+    multipar
