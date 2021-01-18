@@ -12,4 +12,5 @@ GEM
     json (1.7.7)
     multi_json (1.6.1)
     multipart-post (1.2.0)
-    rake (1
+    rake (10.0.3)
+    
