@@ -14,4 +14,5 @@ GEM
     multipart-post (1.2.0)
     rake (10.0.3)
     rash (0.4.0)
-      hashie
+      hashie (~> 2.0.0)
+    
