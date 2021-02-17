@@ -15,4 +15,5 @@ GEM
     rake (10.0.3)
     rash (0.4.0)
       hashie (~> 2.0.0)
-    rspec (2.13.0
+    rspec (2.13.0)
+      rspe
