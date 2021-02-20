@@ -16,4 +16,4 @@ GEM
     rash (0.4.0)
       hashie (~> 2.0.0)
     rspec (2.13.0)
-      rspe
+      rspec-core (~> 2.13.
