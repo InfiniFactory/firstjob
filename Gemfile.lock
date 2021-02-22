@@ -17,4 +17,4 @@ GEM
       hashie (~> 2.0.0)
     rspec (2.13.0)
       rspec-core (~> 2.13.0)
-      rspec-e
+      rspec-expectations (~> 
