@@ -21,4 +21,4 @@ GEM
       rspec-mocks (~> 2.13.0)
     rspec-core (2.13.0)
     rspec-expectations (2.13.0)
-      diff
+      diff-lcs (>= 1.1.
