@@ -25,4 +25,4 @@ GEM
     rspec-mocks (2.13.0)
     simplecov (0.7.1)
       multi_json (~> 1.0)
-      s
+      simplecov-html 
