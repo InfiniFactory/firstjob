@@ -26,4 +26,5 @@ GEM
     simplecov (0.7.1)
       multi_json (~> 1.0)
       simplecov-html (~> 0.7.1)
-    simplecov-htm
+    simplecov-html (0.7.1)
+    w
