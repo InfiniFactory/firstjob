@@ -28,4 +28,4 @@ GEM
       simplecov-html (~> 0.7.1)
     simplecov-html (0.7.1)
     webmock (1.10.1)
-      a
+      addressable (>= 
