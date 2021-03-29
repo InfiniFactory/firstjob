@@ -32,3 +32,5 @@ GEM
       crack (>= 0.3.2)
 
 PLATFORMS
+  ruby
+
