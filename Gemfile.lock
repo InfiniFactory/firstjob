@@ -36,4 +36,5 @@ PLATFORMS
 
 DEPENDENCIES
   faraday
-  faraday_middlew
+  faraday_middleware
+  jruby-opens
