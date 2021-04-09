@@ -36,4 +36,4 @@ PLATFORMS
 
 DEPENDENCIES
   faraday
-  far
+  faraday_middlew
