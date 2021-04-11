@@ -37,4 +37,5 @@ PLATFORMS
 DEPENDENCIES
   faraday
   faraday_middleware
-  jruby-opens
+  jruby-openssl
+  jso
