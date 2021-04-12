@@ -38,4 +38,6 @@ DEPENDENCIES
   faraday
   faraday_middleware
   jruby-openssl
-  jso
+  json
+  rake
+  
