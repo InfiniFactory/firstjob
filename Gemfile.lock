@@ -40,4 +40,6 @@ DEPENDENCIES
   jruby-openssl
   json
   rake
+  rash
+  rspec
   
