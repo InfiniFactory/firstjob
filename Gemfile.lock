@@ -42,4 +42,5 @@ DEPENDENCIES
   rake
   rash
   rspec
-  
+  simplecov
+  w
