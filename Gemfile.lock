@@ -43,4 +43,4 @@ DEPENDENCIES
   rash
   rspec
   simplecov
-  w
+  webmock
