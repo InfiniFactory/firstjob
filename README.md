@@ -37,3 +37,21 @@ Examples
     => <#Hashie::Rash email="mail" id=42 login="name" time_zone="Berlin" utc_offset=60>
 
 ### Get todos
+
+    client.todos
+    => [<#Hashie::Rash do_on="2011-05-26" done=false id=10601581 position=0 todo="create awesome teuxdeux client" updated_at=1306353624 user_id=42>, ...]
+
+### Get "someday" todos
+
+    client.someday
+    => [<#Hashie::Rash do_on="1989-12-01" done=false id=10601582 position=0 todo="be awesome" updated_at=1298486839 user_id=42>, ...]
+
+### Create todo item
+
+    client.create_todo("get freaky!", "2011-06-01")
+    => [<#Hashie::Rash do_on="2011-06-01" done=false id=10601583 position=0 todo="get freaky!" updated_at=1306360182 user_id=42>, ...]
+
+### Update todo item
+
+    client.update_todo(10601581, :done => true)
+    => [<#Hashie::Rash do_on="2011-05-26" done=true id=10601581 position=0 todo="create awesome teuxdeux client" updated_at=1306360182 user_id=42>, ...]
