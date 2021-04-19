@@ -30,3 +30,10 @@ Examples
 ### Create new client
 
     client = TeuxDeux::Client.new :login => "mail", :password => "secret"
+
+### Get user data
+
+    client.user
+    => <#Hashie::Rash email="mail" id=42 login="name" time_zone="Berlin" utc_offset=60>
+
+### Get todos
