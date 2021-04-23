@@ -55,3 +55,13 @@ Examples
 
     client.update_todo(10601581, :done => true)
     => [<#Hashie::Rash do_on="2011-05-26" done=true id=10601581 position=0 todo="create awesome teuxdeux client" updated_at=1306360182 user_id=42>, ...]
+
+### Delete todo item
+
+    client.delete_todo(10601581)
+    => true
+
+Inspiration
+===========
+
+This TeuxDeux API client was developed as an reference implementation of the [unofficial TeuxDeux API][apiwiki].
