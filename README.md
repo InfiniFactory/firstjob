@@ -65,3 +65,12 @@ Inspiration
 ===========
 
 This TeuxDeux API client was developed as an reference implementation of the [unofficial TeuxDeux API][apiwiki].
+
+The API documentation was possible thanks to [mislav][]'s [instagram][] docu and his post about how he did the reasearch.
+
+The code is heavily inspired by the awesome [Octokit][], a ruby wrapper for the GitHub API.
+
+Contribute
+==========
+
+If there are bugs or missing features, please let me know. I would like to accept pull-requests.
