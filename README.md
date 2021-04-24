@@ -74,3 +74,12 @@ Contribute
 ==========
 
 If there are bugs or missing features, please let me know. I would like to accept pull-requests.
+
+As this is just the API client, what we now need is some alternative interfaces. I definitely need a solution for my Android phone. I'm not sure if I should stick with a web app or if I should create a native app.
+
+If you want to help with either of this or just have additional questions or another implementation, contact me.
+
+[apiwiki]: https://github.com/badboy/teuxdeux/wiki/API
+[mislav]: https://github.com/mislav
+[instagram]: https://github.com/mislav/instagram/
+[octokit]: https://github.com/pengwynn/octokit
