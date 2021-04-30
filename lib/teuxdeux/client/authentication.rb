@@ -1,1 +1,2 @@
-module Teu
+module TeuxDeux
+  class
