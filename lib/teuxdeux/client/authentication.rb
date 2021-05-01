@@ -1,3 +1,3 @@
 module TeuxDeux
   class Client
-    module A
+    module Authenticatio
