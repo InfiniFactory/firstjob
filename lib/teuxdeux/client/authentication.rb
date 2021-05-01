@@ -1,2 +1,3 @@
 module TeuxDeux
-  class
+  class Client
+    module A
