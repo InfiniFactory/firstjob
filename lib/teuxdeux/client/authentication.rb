@@ -1,4 +1,4 @@
 module TeuxDeux
   class Client
     module Authentication
-      def
+      def authentic
