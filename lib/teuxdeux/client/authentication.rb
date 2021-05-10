@@ -2,4 +2,5 @@ module TeuxDeux
   class Client
     module Authentication
       def authentication
-        if
+        if login && password
+    
