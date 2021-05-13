@@ -3,4 +3,4 @@ module TeuxDeux
     module Authentication
       def authentication
         if login && password
-          {:log
+          {:login => login, :
