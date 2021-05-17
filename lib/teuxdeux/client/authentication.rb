@@ -4,4 +4,5 @@ module TeuxDeux
       def authentication
         if login && password
           {:login => login, :password => password}
-   
+        else
+         
