@@ -6,4 +6,5 @@ module TeuxDeux
           {:login => login, :password => password}
         else
           {}
-      
+        end
+     
