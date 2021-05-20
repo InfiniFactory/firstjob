@@ -7,4 +7,6 @@ module TeuxDeux
         else
           {}
         end
-     
+      end
+
+      def au
