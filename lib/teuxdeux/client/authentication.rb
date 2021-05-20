@@ -9,4 +9,5 @@ module TeuxDeux
         end
       end
 
-      def au
+      def authenticated?
+  
