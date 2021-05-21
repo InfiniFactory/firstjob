@@ -10,4 +10,4 @@ module TeuxDeux
       end
 
       def authenticated?
-  
+        !auth
