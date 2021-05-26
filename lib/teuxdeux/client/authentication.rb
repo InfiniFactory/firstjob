@@ -11,4 +11,6 @@ module TeuxDeux
 
       def authenticated?
         !authentication.empty?
-      en
+      end
+    end
+  e
