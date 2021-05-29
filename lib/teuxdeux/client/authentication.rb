@@ -13,4 +13,5 @@ module TeuxDeux
         !authentication.empty?
       end
     end
-  e
+  end
+end
