@@ -1,2 +1,2 @@
 require 'faraday_middleware'
-require 'faraday
+require 'faraday/response/raise_err
