@@ -3,4 +3,5 @@ require 'faraday/response/raise_error'
 
 module TeuxDeux
   class Client
-    # @p
+    # @private
+    m
