@@ -5,4 +5,4 @@ module TeuxDeux
   class Client
     # @private
     module Connection
-      BASE
+      BASE_URL = "
