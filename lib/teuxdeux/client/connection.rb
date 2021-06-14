@@ -5,4 +5,5 @@ module TeuxDeux
   class Client
     # @private
     module Connection
-      BASE_URL = "https://teuxdeux.co
+      BASE_URL = "https://teuxdeux.com/api/"
+    
