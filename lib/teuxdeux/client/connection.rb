@@ -6,4 +6,6 @@ module TeuxDeux
     # @private
     module Connection
       BASE_URL = "https://teuxdeux.com/api/"
+      private
+
     
