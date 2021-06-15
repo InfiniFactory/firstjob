@@ -8,4 +8,4 @@ module TeuxDeux
       BASE_URL = "https://teuxdeux.com/api/"
       private
 
-    
+      def connectio
