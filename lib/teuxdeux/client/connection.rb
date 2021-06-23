@@ -10,4 +10,5 @@ module TeuxDeux
 
       def connection(raw=false)
 
-        optio
+        options = {
+     
