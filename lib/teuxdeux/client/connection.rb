@@ -11,4 +11,5 @@ module TeuxDeux
       def connection(raw=false)
 
         options = {
-          :proxy => p
+          :proxy => proxy,
+        
