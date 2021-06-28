@@ -13,3 +13,4 @@ module TeuxDeux
         options = {
           :proxy => proxy,
           :ssl => {:verify => false},
+        
