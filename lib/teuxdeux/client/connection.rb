@@ -13,4 +13,5 @@ module TeuxDeux
         options = {
           :proxy => proxy,
           :ssl => {:verify => false},
-        
+          :url => BASE_URL,
+ 
