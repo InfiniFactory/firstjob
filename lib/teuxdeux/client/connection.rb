@@ -16,4 +16,4 @@ module TeuxDeux
           :url => BASE_URL,
         }
 
-        connectio
+        connection = Faraday.
