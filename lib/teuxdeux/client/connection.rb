@@ -16,4 +16,5 @@ module TeuxDeux
           :url => BASE_URL,
         }
 
-        connection = Faraday.new(options) do |bu
+        connection = Faraday.new(options) do |builder|
+   
