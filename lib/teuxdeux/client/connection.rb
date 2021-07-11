@@ -17,4 +17,4 @@ module TeuxDeux
         }
 
         connection = Faraday.new(options) do |builder|
-   
+          build
