@@ -17,4 +17,4 @@ module TeuxDeux
         }
 
         connection = Faraday.new(options) do |builder|
-          builder.use F
+          builder.use Faraday::Request::
