@@ -18,4 +18,5 @@ module TeuxDeux
 
         connection = Faraday.new(options) do |builder|
           builder.use Faraday::Request::UrlEncoded
-          builder.use Faraday::Response::Rai
+          builder.use Faraday::Response::RaiseError
+     
