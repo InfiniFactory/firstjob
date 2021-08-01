@@ -20,4 +20,5 @@ module TeuxDeux
           builder.use Faraday::Request::UrlEncoded
           builder.use Faraday::Response::RaiseError
           unless raw
-            builder.use Faraday::Resp
+            builder.use Faraday::Response::Rashify
+   
