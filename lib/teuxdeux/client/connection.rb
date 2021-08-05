@@ -21,4 +21,4 @@ module TeuxDeux
           builder.use Faraday::Response::RaiseError
           unless raw
             builder.use Faraday::Response::Rashify
-            b
+            builder.use 
