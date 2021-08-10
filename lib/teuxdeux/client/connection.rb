@@ -23,4 +23,4 @@ module TeuxDeux
             builder.use Faraday::Response::Rashify
             builder.use Faraday::Response::ParseJson
           end
-          
+          builder.a
