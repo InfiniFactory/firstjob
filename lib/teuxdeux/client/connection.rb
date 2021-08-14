@@ -25,4 +25,4 @@ module TeuxDeux
           end
           builder.adapter(adapter)
         end
-        connection.b
+        connection.basic_auth a
