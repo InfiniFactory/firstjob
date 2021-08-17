@@ -25,4 +25,4 @@ module TeuxDeux
           end
           builder.adapter(adapter)
         end
-        connection.basic_auth authentica
+        connection.basic_auth authentication[:logi
