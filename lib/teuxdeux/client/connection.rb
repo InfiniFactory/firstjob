@@ -26,4 +26,6 @@ module TeuxDeux
           builder.adapter(adapter)
         end
         connection.basic_auth authentication[:login], authentication[:password] if authenticated?
-        conne
+        connection
+      end
+   
