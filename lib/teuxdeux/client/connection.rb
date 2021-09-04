@@ -28,4 +28,6 @@ module TeuxDeux
         connection.basic_auth authentication[:login], authentication[:password] if authenticated?
         connection
       end
-   
+    end
+  end
+end
