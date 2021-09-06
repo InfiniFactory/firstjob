@@ -21,3 +21,14 @@ module TeuxDeux
           case method
           when :get, :delete
             request.url(path, options)
+          when :post, :put
+            request.path = path
+            request.body = options unless options.empty?
+          end
+        end
+        raw ? response : response.body
+      end
+
+    end
+  end
+end
