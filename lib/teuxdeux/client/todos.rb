@@ -18,3 +18,17 @@ module TeuxDeux
             :todo => todo,
             :do_on => do_on,
             :done => done ? 1 : 0,
+            :position => position
+          }
+        })
+      end
+
+      def create_todo_someday(todo, done=false, position=0)
+        create_todo(todo, "1989-12-01", done, position)
+      end
+
+      def update_todo(todo_id, opts={})
+        params = { todo_id => {} }
+
+        # Be explicit on what options can be set.
+        params[todo_id][:done]     = opts.delete(:done) ? 1 : 0 if opts.has_key? :done
