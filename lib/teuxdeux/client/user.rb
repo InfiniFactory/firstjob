@@ -1,1 +1,2 @@
-#!/usr/bin/env
+#!/usr/bin/env ruby
+# encoding:
