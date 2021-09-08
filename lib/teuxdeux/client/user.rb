@@ -1,2 +1,4 @@
 #!/usr/bin/env ruby
-# encoding:
+# encoding: utf-8
+
+modul
