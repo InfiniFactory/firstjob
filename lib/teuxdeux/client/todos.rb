@@ -32,3 +32,20 @@ module TeuxDeux
 
         # Be explicit on what options can be set.
         params[todo_id][:done]     = opts.delete(:done) ? 1 : 0 if opts.has_key? :done
+        params[todo_id][:position] = opts.delete(:position)     if opts.has_key? :position
+        params[todo_id][:do_on]    = opts.delete(:do_on)        if opts.has_key? :do_on
+        params[todo_id][:todo]     = opts.delete(:todo)         if opts.has_key? :todo
+
+        post("update.json", :todo_item => params)
+      end
+
+      def delete_todo(id, options={})
+        # TeuxDeux returns an 500 status code and
+        # HTML body on invalid IDs
+        # => catch that
+        delete("todo/#{id}", options, true).status == 200
+      rescue InternalServerError
+        false
+      end
+    end
+  end
