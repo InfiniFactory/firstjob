@@ -4,3 +4,4 @@
 module TeuxDeux
   class Client
     module User
+      def use
