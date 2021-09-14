@@ -4,4 +4,5 @@
 module TeuxDeux
   class Client
     module User
-      def use
+      def user(options={})
+     
