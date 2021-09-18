@@ -8,3 +8,5 @@ module TeuxDeux
         get("user.json", options)
       end
     end
+  end
+end
