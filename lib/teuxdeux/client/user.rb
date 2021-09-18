@@ -5,4 +5,5 @@ module TeuxDeux
   class Client
     module User
       def user(options={})
-        get("user.json", option
+        get("user.json", options)
+      end
