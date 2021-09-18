@@ -7,3 +7,4 @@ module TeuxDeux
       def user(options={})
         get("user.json", options)
       end
+    end
