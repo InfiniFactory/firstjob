@@ -1,1 +1,2 @@
-require 'teuxdeux/client
+require 'teuxdeux/client/authentication'
+r
