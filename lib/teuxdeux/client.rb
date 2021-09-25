@@ -1,2 +1,3 @@
 require 'teuxdeux/client/authentication'
-require 'teuxdeux/client/conne
+require 'teuxdeux/client/connection'
+require
