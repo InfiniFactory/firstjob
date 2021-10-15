@@ -4,4 +4,5 @@ require 'teuxdeux/client/request'
 require 'teuxdeux/client/user'
 require 'teuxdeux/client/todos'
 
-module TeuxD
+module TeuxDeux
+  class Clie
