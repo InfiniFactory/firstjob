@@ -5,4 +5,5 @@ require 'teuxdeux/client/user'
 require 'teuxdeux/client/todos'
 
 module TeuxDeux
-  class Clie
+  class Client
+    attr
