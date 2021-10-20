@@ -6,4 +6,4 @@ require 'teuxdeux/client/todos'
 
 module TeuxDeux
   class Client
-    attr_accessor *C
+    attr_accessor *Configuration::VALID_
