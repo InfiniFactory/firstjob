@@ -6,4 +6,4 @@ require 'teuxdeux/client/todos'
 
 module TeuxDeux
   class Client
-    attr
+    attr_accessor *C
