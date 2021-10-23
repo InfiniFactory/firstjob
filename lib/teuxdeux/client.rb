@@ -7,3 +7,5 @@ require 'teuxdeux/client/todos'
 module TeuxDeux
   class Client
     attr_accessor *Configuration::VALID_OPTIONS_KEYS
+
+    def initia
