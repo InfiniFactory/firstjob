@@ -8,4 +8,5 @@ module TeuxDeux
   class Client
     attr_accessor *Configuration::VALID_OPTIONS_KEYS
 
-    def initialize(option
+    def initialize(options={})
+      
