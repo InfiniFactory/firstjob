@@ -9,4 +9,4 @@ module TeuxDeux
     attr_accessor *Configuration::VALID_OPTIONS_KEYS
 
     def initialize(options={})
-      options = TeuxD
+      options = TeuxDeux.options
