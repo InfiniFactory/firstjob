@@ -9,4 +9,5 @@ module TeuxDeux
     attr_accessor *Configuration::VALID_OPTIONS_KEYS
 
     def initialize(options={})
-      options = TeuxDeux.options.merge(options
+      options = TeuxDeux.options.merge(options)
+     
