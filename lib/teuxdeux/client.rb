@@ -10,4 +10,4 @@ module TeuxDeux
 
     def initialize(options={})
       options = TeuxDeux.options.merge(options)
-      Configuration::VALID
+      Configuration::VALID_OPTIONS
