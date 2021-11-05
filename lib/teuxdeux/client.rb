@@ -11,4 +11,4 @@ module TeuxDeux
     def initialize(options={})
       options = TeuxDeux.options.merge(options)
       Configuration::VALID_OPTIONS_KEYS.each do |key|
-        send("#{k
+        send("#{key}=", opti
