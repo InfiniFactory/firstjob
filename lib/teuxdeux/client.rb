@@ -15,4 +15,4 @@ module TeuxDeux
       end
     end
 
-    inclu
+    include TeuxDeux::Clie
