@@ -15,4 +15,4 @@ module TeuxDeux
       end
     end
 
-    include TeuxDeux::Clie
+    include TeuxDeux::Client::Authentic
