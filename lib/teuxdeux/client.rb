@@ -16,4 +16,4 @@ module TeuxDeux
     end
 
     include TeuxDeux::Client::Authentication
-    include TeuxDeux::C
+    include TeuxDeux::Client::Conne
