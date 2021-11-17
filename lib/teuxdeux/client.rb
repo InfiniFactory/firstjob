@@ -19,4 +19,5 @@ module TeuxDeux
     include TeuxDeux::Client::Connection
     include TeuxDeux::Client::Request
 
-    include TeuxDeux:
+    include TeuxDeux::Client::User
+ 
