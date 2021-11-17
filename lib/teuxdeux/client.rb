@@ -18,3 +18,5 @@ module TeuxDeux
     include TeuxDeux::Client::Authentication
     include TeuxDeux::Client::Connection
     include TeuxDeux::Client::Request
+
+    incl
