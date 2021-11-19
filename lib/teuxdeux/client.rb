@@ -20,4 +20,4 @@ module TeuxDeux
     include TeuxDeux::Client::Request
 
     include TeuxDeux::Client::User
- 
+    incl
