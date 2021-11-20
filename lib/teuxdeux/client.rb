@@ -21,3 +21,5 @@ module TeuxDeux
 
     include TeuxDeux::Client::User
     include TeuxDeux::Client::ToDos
+  end
+end
