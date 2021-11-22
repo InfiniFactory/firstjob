@@ -1,2 +1,2 @@
 require 'faraday'
-requi
+require 'teuxdeux/
