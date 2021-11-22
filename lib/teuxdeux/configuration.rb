@@ -1,2 +1,4 @@
 require 'faraday'
-require 'teuxdeux/
+require 'teuxdeux/version'
+
+module
