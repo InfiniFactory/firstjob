@@ -3,4 +3,4 @@ require 'teuxdeux/version'
 
 module TeuxDeux
   module Configuration
-    VAL
+    VALID_OPTIONS_KEYS
