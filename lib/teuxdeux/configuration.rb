@@ -8,3 +8,4 @@ module TeuxDeux
       :login,
       :password,
       :proxy,
+      :user_agent].f
