@@ -6,4 +6,5 @@ module TeuxDeux
     VALID_OPTIONS_KEYS = [
       :adapter,
       :login,
+      :password,
  
