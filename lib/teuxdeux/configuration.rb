@@ -7,4 +7,4 @@ module TeuxDeux
       :adapter,
       :login,
       :password,
-      :pro
+      :proxy,
