@@ -8,4 +8,6 @@ module TeuxDeux
       :login,
       :password,
       :proxy,
-      :user_agent].f
+      :user_agent].freeze
+
+    DEFAULT_
