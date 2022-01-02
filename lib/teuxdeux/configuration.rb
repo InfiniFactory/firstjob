@@ -10,4 +10,5 @@ module TeuxDeux
       :proxy,
       :user_agent].freeze
 
-    DEFAULT_ADAPTER    = Faraday.def
+    DEFAULT_ADAPTER    = Faraday.default_adapter
+   
