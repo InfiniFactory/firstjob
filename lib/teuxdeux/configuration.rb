@@ -11,4 +11,4 @@ module TeuxDeux
       :user_agent].freeze
 
     DEFAULT_ADAPTER    = Faraday.default_adapter
-   
+    DEFAULT_LOG
