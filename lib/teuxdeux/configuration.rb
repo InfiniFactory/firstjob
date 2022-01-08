@@ -12,4 +12,4 @@ module TeuxDeux
 
     DEFAULT_ADAPTER    = Faraday.default_adapter
     DEFAULT_LOGIN      = nil
-    DEFAULT_PAS
+    DEFAULT_PASSWORD   = nil
