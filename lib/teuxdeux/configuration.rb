@@ -14,4 +14,4 @@ module TeuxDeux
     DEFAULT_LOGIN      = nil
     DEFAULT_PASSWORD   = nil
     DEFAULT_PROXY      = nil
-    DEFAULT_USER_AGENT = "TeuxDeux Ruby Gem #{Te
+    DEFAULT_USER_AGENT = "TeuxDeux Ruby Gem #{TeuxDeux:
