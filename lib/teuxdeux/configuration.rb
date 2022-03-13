@@ -16,4 +16,6 @@ module TeuxDeux
     DEFAULT_PROXY      = nil
     DEFAULT_USER_AGENT = "TeuxDeux Ruby Gem #{TeuxDeux::VERSION}".freeze
 
-    attr_accessor *VALID_OPTIONS
+    attr_accessor *VALID_OPTIONS_KEYS
+
+    def sel
