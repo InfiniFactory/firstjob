@@ -19,4 +19,4 @@ module TeuxDeux
     attr_accessor *VALID_OPTIONS_KEYS
 
     def self.extended(base)
-      
+      base.rese
