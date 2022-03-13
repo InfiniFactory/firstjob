@@ -18,4 +18,4 @@ module TeuxDeux
 
     attr_accessor *VALID_OPTIONS_KEYS
 
-    def sel
+    def self.extende
