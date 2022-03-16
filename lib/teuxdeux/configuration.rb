@@ -22,4 +22,4 @@ module TeuxDeux
       base.reset
     end
 
-  
+    def configu
