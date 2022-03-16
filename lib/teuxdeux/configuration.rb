@@ -22,4 +22,5 @@ module TeuxDeux
       base.reset
     end
 
-    def configu
+    def configure
+      yiel
