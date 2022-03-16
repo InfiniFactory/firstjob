@@ -23,4 +23,5 @@ module TeuxDeux
     end
 
     def configure
-      yiel
+      yield self
+   
