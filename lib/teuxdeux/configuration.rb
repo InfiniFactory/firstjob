@@ -26,4 +26,5 @@ module TeuxDeux
       yield self
     end
 
-    def o
+    def options
+     
