@@ -27,4 +27,4 @@ module TeuxDeux
     end
 
     def options
-     
+      VALID_OPT
