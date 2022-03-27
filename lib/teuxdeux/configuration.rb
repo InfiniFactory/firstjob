@@ -27,4 +27,4 @@ module TeuxDeux
     end
 
     def options
-      VALID_OPTIONS_KEY
+      VALID_OPTIONS_KEYS.inject({})
