@@ -27,4 +27,5 @@ module TeuxDeux
     end
 
     def options
-      VALID_OPTIONS_KEYS.inject({}){|o,k| o.merge!(k => 
+      VALID_OPTIONS_KEYS.inject({}){|o,k| o.merge!(k => send(k)) }
+ 
