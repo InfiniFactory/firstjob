@@ -30,4 +30,5 @@ module TeuxDeux
       VALID_OPTIONS_KEYS.inject({}){|o,k| o.merge!(k => send(k)) }
     end
 
-    def 
+    def reset
+      
