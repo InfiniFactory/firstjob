@@ -31,4 +31,4 @@ module TeuxDeux
     end
 
     def reset
-      self.a
+      self.adapter
