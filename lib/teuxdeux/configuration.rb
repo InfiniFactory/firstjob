@@ -32,4 +32,4 @@ module TeuxDeux
 
     def reset
       self.adapter     = DEFAULT_ADAPTER
- 
+      se
