@@ -33,3 +33,4 @@ module TeuxDeux
     def reset
       self.adapter     = DEFAULT_ADAPTER
       self.login       = DEFAULT_LOGIN
+      self.pas
