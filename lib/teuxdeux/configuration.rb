@@ -34,4 +34,4 @@ module TeuxDeux
       self.adapter     = DEFAULT_ADAPTER
       self.login       = DEFAULT_LOGIN
       self.password    = DEFAULT_PASSWORD
-      self.proxy
+      self.proxy       = DEFAUL
