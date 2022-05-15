@@ -35,4 +35,4 @@ module TeuxDeux
       self.login       = DEFAULT_LOGIN
       self.password    = DEFAULT_PASSWORD
       self.proxy       = DEFAULT_PROXY
-      self.user_agent  = D
+      self.user_agent  = DEFAULT_USER_A
