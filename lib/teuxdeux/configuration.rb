@@ -37,3 +37,5 @@ module TeuxDeux
       self.proxy       = DEFAULT_PROXY
       self.user_agent  = DEFAULT_USER_AGENT
     end
+  end
+end
