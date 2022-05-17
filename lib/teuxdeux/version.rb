@@ -1,2 +1,2 @@
 module TeuxDeux
-  VERSION
+  VERSION = "0.0.2".
