@@ -1,2 +1,2 @@
 module TeuxDeux
-  
+  VERSION
