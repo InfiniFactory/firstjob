@@ -1,1 +1,1 @@
-require 'teuxdeux/c
+require 'teuxdeux/configuratio
