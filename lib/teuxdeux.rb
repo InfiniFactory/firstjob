@@ -1,1 +1,2 @@
-require 'teuxdeux/configuratio
+require 'teuxdeux/configuration'
+require '
