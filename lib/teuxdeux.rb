@@ -1,2 +1,4 @@
 require 'teuxdeux/configuration'
-require 'teuxdeux/c
+require 'teuxdeux/client'
+
+modu
