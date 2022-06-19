@@ -4,4 +4,4 @@ require 'teuxdeux/client'
 module TeuxDeux
   extend Configuration
 
-  # Alias for Teuxdeux:
+  # Alias for Teuxdeux::Client.n
