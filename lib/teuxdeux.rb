@@ -4,4 +4,4 @@ require 'teuxdeux/client'
 module TeuxDeux
   extend Configuration
 
-  # Alia
+  # Alias for Te
