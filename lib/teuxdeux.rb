@@ -6,4 +6,4 @@ module TeuxDeux
 
   # Alias for Teuxdeux::Client.new
   #
-  # @ret
+  # @return [Teuxdeux::Clie
