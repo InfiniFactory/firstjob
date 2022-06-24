@@ -7,4 +7,4 @@ module TeuxDeux
   # Alias for Teuxdeux::Client.new
   #
   # @return [Teuxdeux::Client]
-  def self.clien
+  def self.client(options=
