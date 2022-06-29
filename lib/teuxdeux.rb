@@ -8,4 +8,4 @@ module TeuxDeux
   #
   # @return [Teuxdeux::Client]
   def self.client(options={})
-    Teu
+    TeuxDeux::Client.new(o
