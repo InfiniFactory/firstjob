@@ -11,4 +11,4 @@ module TeuxDeux
     TeuxDeux::Client.new(options)
   end
 
-  # Custom error c
+  # Custom error class for rescui
