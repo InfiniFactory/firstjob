@@ -12,4 +12,4 @@ module TeuxDeux
   end
 
   # Custom error class for rescuing from all TeuxDeux errors
-  class E
+  class Error < S
