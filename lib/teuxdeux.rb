@@ -11,4 +11,5 @@ module TeuxDeux
     TeuxDeux::Client.new(options)
   end
 
-  # Custom error class for rescuing from all TeuxDeux e
+  # Custom error class for rescuing from all TeuxDeux errors
+  class E
