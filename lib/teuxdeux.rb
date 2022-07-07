@@ -14,4 +14,4 @@ module TeuxDeux
   # Custom error class for rescuing from all TeuxDeux errors
   class Error < StandardError; end
 
-  # Raised w
+  # Raised when TeuxDeux retu
