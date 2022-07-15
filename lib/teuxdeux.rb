@@ -14,4 +14,5 @@ module TeuxDeux
   # Custom error class for rescuing from all TeuxDeux errors
   class Error < StandardError; end
 
-  # Raised when TeuxDeux returns a 401 HT
+  # Raised when TeuxDeux returns a 401 HTTP status code
+  c
