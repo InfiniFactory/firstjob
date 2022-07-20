@@ -15,4 +15,6 @@ module TeuxDeux
   class Error < StandardError; end
 
   # Raised when TeuxDeux returns a 401 HTTP status code
-  class Unauthorized < E
+  class Unauthorized < Error; end
+
+  # Raised
