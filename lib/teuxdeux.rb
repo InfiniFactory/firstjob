@@ -17,4 +17,5 @@ module TeuxDeux
   # Raised when TeuxDeux returns a 401 HTTP status code
   class Unauthorized < Error; end
 
-  # Raised when TeuxDeux returns a 404 HTTP status
+  # Raised when TeuxDeux returns a 404 HTTP status code
+  class
