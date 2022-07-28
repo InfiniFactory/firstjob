@@ -18,4 +18,4 @@ module TeuxDeux
   class Unauthorized < Error; end
 
   # Raised when TeuxDeux returns a 404 HTTP status code
-  class
+  class NotFound
