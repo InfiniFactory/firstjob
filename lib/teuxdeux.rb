@@ -20,4 +20,4 @@ module TeuxDeux
   # Raised when TeuxDeux returns a 404 HTTP status code
   class NotFound < Error; end
 
- 
+  # Raised w
