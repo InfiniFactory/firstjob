@@ -21,4 +21,4 @@ module TeuxDeux
   class NotFound < Error; end
 
   # Raised when TeuxDeux returns a 500 HTTP status code
-  class Interna
+  class InternalServerErro
