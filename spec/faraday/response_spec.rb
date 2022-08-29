@@ -2,4 +2,5 @@
 
 require 'helper'
 
-describe Faraday::Resp
+describe Faraday::Response do
+  b
