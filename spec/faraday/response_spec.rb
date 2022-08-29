@@ -2,4 +2,4 @@
 
 require 'helper'
 
-describ
+describe Faraday::Resp
