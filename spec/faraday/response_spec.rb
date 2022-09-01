@@ -3,4 +3,5 @@
 require 'helper'
 
 describe Faraday::Response do
-  b
+  before do
+   
