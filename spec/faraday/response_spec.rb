@@ -8,4 +8,4 @@ describe Faraday::Response do
   end
 
   {
-    401 => TeuxDeux::Un
+    401 => TeuxDeux::Unauthorized,
