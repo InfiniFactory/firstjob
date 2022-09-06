@@ -4,4 +4,4 @@ require 'helper'
 
 describe Faraday::Response do
   before do
-    @client = TeuxDeux::
+    @client = TeuxDeux::Client.new
