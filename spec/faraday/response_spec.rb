@@ -8,4 +8,4 @@ describe Faraday::Response do
   end
 
   {
-    4
+    401 => 
