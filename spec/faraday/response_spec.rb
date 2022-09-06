@@ -5,3 +5,7 @@ require 'helper'
 describe Faraday::Response do
   before do
     @client = TeuxDeux::Client.new
+  end
+
+  {
+    4
