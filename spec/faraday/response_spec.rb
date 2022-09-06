@@ -9,3 +9,4 @@ describe Faraday::Response do
 
   {
     401 => TeuxDeux::Unauthorized,
+    404 => TeuxDe
