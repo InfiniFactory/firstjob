@@ -10,4 +10,4 @@ describe Faraday::Response do
   {
     401 => TeuxDeux::Unauthorized,
     404 => TeuxDeux::NotFound,
-    5
+    500 => TeuxDeux::I
