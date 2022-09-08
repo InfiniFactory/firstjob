@@ -11,3 +11,4 @@ describe Faraday::Response do
     401 => TeuxDeux::Unauthorized,
     404 => TeuxDeux::NotFound,
     500 => TeuxDeux::InternalServerError,
+  }.each do
