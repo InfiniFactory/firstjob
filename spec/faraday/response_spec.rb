@@ -12,4 +12,4 @@ describe Faraday::Response do
     404 => TeuxDeux::NotFound,
     500 => TeuxDeux::InternalServerError,
   }.each do |status, exception|
-    context "when HTTP s
+    context "when HTTP status is #{stat
