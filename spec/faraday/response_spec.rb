@@ -14,4 +14,5 @@ describe Faraday::Response do
   }.each do |status, exception|
     context "when HTTP status is #{status}" do
 
-      
+      before do
+     
