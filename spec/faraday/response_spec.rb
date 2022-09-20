@@ -15,4 +15,5 @@ describe Faraday::Response do
     context "when HTTP status is #{status}" do
 
       before do
-        stub_get('use
+        stub_get('user.json').
+         
