@@ -19,4 +19,4 @@ describe Faraday::Response do
           to_return(:status => status)
       end
 
-      it "should raise #{e
+      it "should raise #{exception.nam
