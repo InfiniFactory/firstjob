@@ -16,4 +16,4 @@ describe Faraday::Response do
 
       before do
         stub_get('user.json').
-         
+          to_return(
