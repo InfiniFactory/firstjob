@@ -19,4 +19,4 @@ describe Faraday::Response do
           to_return(:status => status)
       end
 
-      it "should 
+      it "should raise #{e
