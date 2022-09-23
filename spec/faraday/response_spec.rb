@@ -19,4 +19,5 @@ describe Faraday::Response do
           to_return(:status => status)
       end
 
-      it "should raise #{exception.name} error" d
+      it "should raise #{exception.name} error" do
+        lamb
