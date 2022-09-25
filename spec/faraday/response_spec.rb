@@ -20,4 +20,5 @@ describe Faraday::Response do
       end
 
       it "should raise #{exception.name} error" do
-        lamb
+        lambda do
+       
