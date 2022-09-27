@@ -23,4 +23,6 @@ describe Faraday::Response do
         lambda do
           @client.user
         end.should raise_error(exception)
-    
+      end
+    end
+ 
