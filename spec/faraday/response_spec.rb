@@ -25,4 +25,5 @@ describe Faraday::Response do
         end.should raise_error(exception)
       end
     end
- 
+  end
+end
