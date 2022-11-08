@@ -5,4 +5,5 @@
   "do_on": "2011-05-27",
   "user_id": 42,
   "todo": "new todo",
-  "do
+  "done": false
+}
