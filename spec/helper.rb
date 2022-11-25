@@ -11,3 +11,14 @@ require 'webmock/rspec'
 RSpec.configure do |config|
   config.include WebMock::API
 end
+
+def stub_delete(url)
+  stub_request(:delete, teuxdeux_url(url))
+end
+
+def stub_get(url)
+  stub_request(:get, teuxdeux_url(url))
+end
+
+def stub_post(url)
+  stub_request(:post, teuxdeux_url(url))
