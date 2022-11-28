@@ -41,3 +41,7 @@ def teuxdeux_url(url)
     url
   elsif @client && @client.authenticated?
     "https://user:secret@teuxdeux.com/api/#{url}"
+  else
+    "https://teuxdeux.com/api/#{url}"
+  end
+end
