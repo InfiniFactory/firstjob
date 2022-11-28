@@ -22,3 +22,22 @@ end
 
 def stub_post(url)
   stub_request(:post, teuxdeux_url(url))
+end
+
+def stub_put(url)
+  stub_request(:put, teuxdeux_url(url))
+end
+
+def fixture_path
+  File.expand_path("../fixtures", __FILE__)
+end
+
+def fixture(file)
+  File.new(fixture_path + '/' + file)
+end
+
+def teuxdeux_url(url)
+  if url=~ /^http/
+    url
+  elsif @client && @client.authenticated?
+    "https://user:secret@teuxdeux.com/api/#{url}"
