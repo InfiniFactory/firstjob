@@ -33,3 +33,13 @@ describe TeuxDeux::Client::ToDos do
       todos[0].id.should == 1337
       todos[0].do_on.should == "1989-12-01"
       todos[0].done.should == true
+    end
+  end
+
+  describe ".create_todo" do
+    it "should return a new todo" do
+      stub_post("todo.json").
+        with(:body => { :todo_item => {
+          :todo => "new todo",
+          :do_on => "2011-05-27",
+          :done => "0",
