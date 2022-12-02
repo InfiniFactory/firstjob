@@ -43,3 +43,15 @@ describe TeuxDeux::Client::ToDos do
           :todo => "new todo",
           :do_on => "2011-05-27",
           :done => "0",
+          :position => "0"
+        }}).
+        to_return(:body => fixture("todo.json"))
+
+        t = @client.create_todo("new todo", "2011-05-27")
+
+        t.todo.should == "new todo"
+        t.do_on.should == "2011-05-27"
+    end
+  end
+
+  describe ".create_todo_someday" do
