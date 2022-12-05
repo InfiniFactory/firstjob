@@ -55,3 +55,17 @@ describe TeuxDeux::Client::ToDos do
   end
 
   describe ".create_todo_someday" do
+    it "should return a new todo" do
+      stub_post("todo.json").
+        with(:body => { :todo_item => {
+          :todo => "new someday",
+          :do_on => "1989-12-01",
+          :done => "0",
+          :position => "0"
+        }}).
+        to_return(:body => fixture("someday.json"))
+
+        t = @client.create_todo_someday("new someday")
+
+        t.todo.should == "new someday"
+        t.do_on.should == "1989-12-01"
