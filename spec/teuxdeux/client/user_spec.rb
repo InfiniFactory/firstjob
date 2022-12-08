@@ -13,3 +13,7 @@ describe TeuxDeux::Client::User do
       stub_get("user.json").
         to_return(:body => fixture("user.json"))
       users = @client.user
+      users.login.should == "user"
+    end
+  end
+end
