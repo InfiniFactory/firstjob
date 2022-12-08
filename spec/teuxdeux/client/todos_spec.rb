@@ -69,3 +69,22 @@ describe TeuxDeux::Client::ToDos do
 
         t.todo.should == "new someday"
         t.do_on.should == "1989-12-01"
+    end
+  end
+
+  describe ".update_todo" do
+    it "should update a todo item" do
+      stub_post("update.json").
+        # WebMock does not correctly encode a ruby hash with a integer key, so
+        # we do it.
+        with(:body => "todo_item%5B12345%5D%5Bdone%5D=1").
+        to_return(:body => fixture("update_todo.json"))
+
+
+      @client.update_todo(12345, :done => true )
+    end
+  end
+
+  describe ".delete_todo" do
+    it "should return true on successful delete" do
+      stub_delete("todo/123").
