@@ -88,3 +88,16 @@ describe TeuxDeux::Client::ToDos do
   describe ".delete_todo" do
     it "should return true on successful delete" do
       stub_delete("todo/123").
+        to_return(:status => 200)
+
+      @client.delete_todo(123).should == true
+    end
+
+    it "should return false on unknown id" do
+      stub_delete("todo/123456").
+        to_return(:status => 500)
+
+      @client.delete_todo(123456).should == false
+    end
+  end
+end
