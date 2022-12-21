@@ -2,4 +2,5 @@
 
 require 'helper'
 
-describe TeuxDeux::Configu
+describe TeuxDeux::Configuration do
+  desc
