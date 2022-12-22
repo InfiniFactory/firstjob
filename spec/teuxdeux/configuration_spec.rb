@@ -3,4 +3,4 @@
 require 'helper'
 
 describe TeuxDeux::Configuration do
-  desc
+  describe ".conf
