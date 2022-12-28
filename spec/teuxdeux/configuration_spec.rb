@@ -3,4 +3,5 @@
 require 'helper'
 
 describe TeuxDeux::Configuration do
-  describe ".configure" 
+  describe ".configure" do
+    it 
