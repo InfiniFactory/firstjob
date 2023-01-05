@@ -5,4 +5,4 @@ require 'helper'
 describe TeuxDeux::Configuration do
   describe ".configure" do
     it "should let configure all options" do
-      TeuxDeux.log
+      TeuxDeux.login.should == 
