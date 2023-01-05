@@ -5,4 +5,6 @@ require 'helper'
 describe TeuxDeux::Configuration do
   describe ".configure" do
     it "should let configure all options" do
-      TeuxDeux.login.should == 
+      TeuxDeux.login.should == nil
+
+      TeuxDeux.co
