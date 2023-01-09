@@ -7,4 +7,5 @@ describe TeuxDeux::Configuration do
     it "should let configure all options" do
       TeuxDeux.login.should == nil
 
-      TeuxDeux.co
+      TeuxDeux.configure do |conf|
+  
