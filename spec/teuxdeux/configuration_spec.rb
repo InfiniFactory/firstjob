@@ -8,4 +8,4 @@ describe TeuxDeux::Configuration do
       TeuxDeux.login.should == nil
 
       TeuxDeux.configure do |conf|
-  
+        co
