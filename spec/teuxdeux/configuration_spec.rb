@@ -8,4 +8,5 @@ describe TeuxDeux::Configuration do
       TeuxDeux.login.should == nil
 
       TeuxDeux.configure do |conf|
-        conf.login = "user
+        conf.login = "user"
+      end
