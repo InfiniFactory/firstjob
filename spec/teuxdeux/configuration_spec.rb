@@ -11,4 +11,4 @@ describe TeuxDeux::Configuration do
         conf.login = "user"
       end
 
-      TeuxD
+      TeuxDeux.login.s
