@@ -12,4 +12,5 @@ describe TeuxDeux::Configuration do
       end
 
       TeuxDeux.login.should == "user"
-    e
+    end
+  end
