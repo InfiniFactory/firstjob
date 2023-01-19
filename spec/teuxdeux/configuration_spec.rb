@@ -11,4 +11,5 @@ describe TeuxDeux::Configuration do
         conf.login = "user"
       end
 
-      TeuxDeux.login.should == "
+      TeuxDeux.login.should == "user"
+    e
