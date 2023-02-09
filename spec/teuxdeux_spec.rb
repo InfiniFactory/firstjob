@@ -3,4 +3,5 @@
 require 'helper'
 
 describe TeuxDeux do
-  describe "
+  describe ".client" do
+ 
