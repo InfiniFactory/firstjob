@@ -4,4 +4,4 @@ require 'helper'
 
 describe TeuxDeux do
   describe ".client" do
-    it "should be a TeuxDeux::
+    it "should be a TeuxDeux::Client" do
