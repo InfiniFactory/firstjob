@@ -5,4 +5,4 @@ require 'helper'
 describe TeuxDeux do
   describe ".client" do
     it "should be a TeuxDeux::Client" do
-      TeuxDeux.client.should b
+      TeuxDeux.client.should be_a TeuxDeux::Client
